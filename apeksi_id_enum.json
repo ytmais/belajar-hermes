@@ -1,0 +1,60 @@
+{
+  "target": "apeksi.id",
+  "timestamp": "2026-11-03T09:00:04Z",
+  "results": {
+    "dns": {
+      "NS": [
+        "sam.ns.cloudflare.com.",
+        "cloe.ns.cloudflare.com."
+      ],
+      "MX": [
+        "10 alt3.aspmx.l.google.com.",
+        "1 aspmx.l.google.com.",
+        "10 alt4.aspmx.l.google.com.",
+        "5 alt1.aspmx.l.google.com.",
+        "5 alt2.aspmx.l.google.com."
+      ],
+      "TXT": [
+        "\"v=spf1 include:_spf.mail.hostinger.com ~all\"",
+        "\"google-site-verification=jeszQ_EhlEdvohJQw8GtsO5QGRUjDor_B814NNwdxvc\""
+      ],
+      "SOA": [
+        "ns1.dns-parking.com. dns.hostinger.com. 2026102901 10000 2400 604800 600"
+      ],
+      "A": [
+        "194.163.35.8"
+      ],
+      "AAAA": [
+        "2a02:4780:3:690:0:3199:fc6:2"
+      ]
+    },
+    "crt_sh": [
+      "apeksi.id",
+      "bio.apeksi.id",
+      "elibrary.apeksi.id",
+      "go.apeksi.id",
+      "link.apeksi.id",
+      "materi.apeksi.id",
+      "www.apeksi.id",
+      "youtube.apeksi.id",
+      "zoom.apeksi.id"
+    ],
+    "subdomains": [
+      "go.apeksi.id A 52.21.33.16",
+      "link.apeksi.id A 52.21.33.16",
+      "ftp.apeksi.id A 194.163.35.8",
+      "mail.apeksi.id A 194.163.35.8",
+      "mail.apeksi.id AAAA 2a02:4780:3:690:0:3199:fc6:2",
+      "www.apeksi.id A 194.163.35.8",
+      "www.apeksi.id AAAA 2a02:4780:3:690:0:3199:fc6:2",
+      "www.apeksi.id CNAME apeksi.id.",
+      "zoom.apeksi.id A 52.21.33.16",
+      "elibrary.apeksi.id A 194.163.35.8",
+      "elibrary.apeksi.id AAAA 2a02:4780:3:690:0:3199:fc6:2",
+      "bio.apeksi.id A 194.163.35.8",
+      "bio.apeksi.id AAAA 2a02:4780:3:690:0:3199:fc6:2",
+      "youtube.apeksi.id A 52.21.33.16",
+      "materi.apeksi.id A 52.21.33.16"
+    ]
+  }
+}

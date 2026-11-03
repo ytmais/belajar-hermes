@@ -1,0 +1,164 @@
+[
+  {
+    "domain": "www.infomaniak.com",
+    "info": [
+      "date: Tue, 03 Nov 2026 13:52:47 GMT",
+      "content-type: text/html; charset=utf-8",
+      "transfer-encoding: chunked",
+      "set-cookie: ingress-site-infomaniak=1793713968.36.2332.694074|dac64a6785aa6904b0236e5d0464075f; Max-Age=3600; Path=/; HttpOnly",
+      "x-content-type-options: nosniff",
+      "set-cookie: STATIC_CURRENCY=EUR; expires=Wed, 03 Nov 2027 13:52:47 GMT; Max-Age=31536000; path=/",
+      "set-cookie: STATIC_COUNTRY=SG; expires=Wed, 04 Nov 2026 13:52:47 GMT; Max-Age=86400; path=/",
+      "cache-control: no-cache, private, max-age=172800",
+      "vary: X-Inertia,Accept-Encoding",
+      "x-content-type-options: nosniff",
+      "referrer-policy: strict-origin-when-cross-origin",
+      "permissions-policy: camera=(), microphone=(), geolocation=(self), browsing-topics=()",
+      "cross-origin-opener-policy: same-origin",
+      "x-frame-options: SAMEORIGIN",
+      "content-security-policy: default-src; script-src https://*.infomaniak.com 'self' blob: data: https://infomaniak.com https://google.com https://www.google.com https://www.gstatic.com https://cdn.trustindex.io https://www.dwin1.com https://the.sciencebehindecommerce.com https://lantern.roeyecdn.com 'nonce-2qoCoc05REJlc9zeMDku1BQ26ZaawyrADx8nVhAh'; script-src-elem https://*.infomaniak.com 'self' blob: data: https://infomaniak.com https://google.com https://www.google.com https://www.gstatic.com https://cdn.trustindex.io https://www.dwin1.com https://the.sciencebehindecommerce.com https://lantern.roeyecdn.com 'nonce-2qoCoc05REJlc9zeMDku1BQ26ZaawyrADx8nVhAh'; style-src https://*.infomaniak.com 'self' 'unsafe-inline' https://cdn.trustindex.io; font-src https://*.infomaniak.com 'self' data: https://static.infomaniak.ch https://cdn.trustindex.io; img-src https://*.infomaniak.com 'self' data: blob: android-webview-video-poster https://*.infomaniak.ch https://cdn.trustindex.io https://lantern.roeye.com; media-src https://*.infomaniak.com 'self'; connect-src https://*.infomaniak.com 'self' wss://*.infomaniak.com:* https://infomaniak.com https://google.com https://www.google.com https://*.trustindex.io https://www.wepowerconnections.com https://the.sciencebehindecommerce.com; child-src https://*.infomaniak.com https://google.com https://www.google.com https://www.youtube.com; frame-src https://*.infomaniak.com https://google.com https://www.google.com https://www.youtube.com; worker-src https://*.infomaniak.com 'self' blob:; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action https://*.infomaniak.com 'self' https://*.infomaniak.ch; upgrade-insecure-requests; report-uri /api/csp-report;",
+      "set-cookie: XSRF-TOKEN=eyJpdiI6IjkvWExpb0ZYaXhuVkpIM09uQ2M3L3c9PSIsInZhbHVlIjoiM1NJTTNLeGlmdlJyeCtjeTUwdHFFUEdPbTJlT205U1d2TFVacDBBbXUwc2VtenFqUUJIUW8reVRSNldRVGhsVVpFdUxxclhUVHhac1Y1TUxQOHY1bHVnUXJMWkRiSFpEbjNGamMyRjA0NUZsMlN5ZmRZakUrQjJkVlRlUC80bVciLCJtYWMiOiI1ZmZkYjFhZmIzY2ZmZThjNmY2ODIxNTA2MzFlM2NmZDU5ZGY2YjZmYTRlYzAyY2FjMjE5M2EyZDkyYTAxODRhIiwidGFnIjoiIn0%3D; expires=Tue, 03 Nov 2026 15:52:47 GMT; Max-Age=7200; path=/; secure; samesite=lax",
+      "set-cookie: site_infomaniak_session=eyJpdiI6IlNKMlJjeFNydERib29oMXh2ZGM1RHc9PSIsInZhbHVlIjoiaVFwRy90eXp1M2d6b2JxbEhzM0ZnL25Jb2EwSTFzdFhRWWZaZW9RMUlCNFNxZGRhNHZMdEVlRFd0aHRGcGtiYmF0MVpvZUpNQkdGZGVBYTZKajM0Q2NzMjhtd3ZneER5enFRMDJ6d2tyK2l0djNQa003RUJIMTViQzdLcmYzeEIiLCJtYWMiOiIxM2QyMTQzODEzMzM2YjZlMmY1YWY1YzA2MjJkNDdkYTM1ODFjMjMzMmM2MDg0OWJlMTNlOGYxZWVmNjVhZDA0IiwidGFnIjoiIn0%3D; expires=Tue, 03 Nov 2026 15:52:47 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+      "set-cookie: locale=eyJpdiI6IldsdjFKbzNHNjRyc3lCVWx0NVpSN2c9PSIsInZhbHVlIjoienJIUEk4SGpJN09sdEs5OU1CRUxFbHI5cGtMTmFnSXk4Y1Z1eDl5RWg0V0RXb3grUWVqaUpGN1JoaXc3YXlaeCIsIm1hYyI6IjhmM2YzMjY0OTYwMzY0NjE4ODdlMmJlMGFjY2E2MjdkMGE0ZjRlNWYzM2FlOWQxZmQ4Y2E1NzNkNzI4ZWJjM2EiLCJ0YWciOiIifQ%3D%3D; expires=Thu, 03 Dec 2026 13:52:47 GMT; Max-Age=2592000; path=/; secure; httponly; samesite=lax",
+      "set-cookie: NixWx8NR9sFgepXgMX6aTJC23E5O1GFp07jgEKml=eyJpdiI6IlBDaUJjNGE2bFlZN2ZFUFI1Tk9SOGc9PSIsInZhbHVlIjoiSEhiWGZnQm1PT2prN3krQ2lDeGJVWEYyVm5wb2xNZE9JclN5eTR6UHJ4YVlacm01a25tc3BCQlA0VVI0RFFVNTR6UENnaHdreEZhNUNGQzZsTDFjdENOSXRDV01Ud0tZMko4VGpWNGppbUtRai9zYUkzcXc5ajJBeEdDcTlKblROb2kzc1hCU0VJZWpYSCs2OENtUzg5YjVOMlpnSW9WK29Yb1NkRjF1VXlESmxyQVRybGxEcHZMdk84Z09xR2pSTW5lRW10K2ZScFlORzFjWlhmRTBNWHBqT2x1T2QvUGYwZ2ZIRGFZVFJtUVVaYm5DRFFDR09ZRUdKbFk0dk9pSDUzZHBhVUNLMXVVb3kwa0tKanhRQzRYNVdEcDVTdUJnL1RWbHRtUkRCeUVGKzIyZGlKOXhiY0wyMzQvV0JXdkNBbFVQWktnOSsxWFNvM2JEWklSZkVISUV5VUltUmc0NVJubWoyUGpMRDZjYnhlcmVSdXlURjhTQ01XMVd0bTVQOUZyMHBBaC9zRzJwaTByT1VVZ1NSV0ZNRzV0NmIwd3BQQlJRakNBUWtPdjB3dmVSQTIrSWNiNzZGZXFJSytCTiIsIm1hYyI6IjdmMDJjNGNkMjZkNjMwYTliN2JhYmUxNzNjY2IyZDI1MGJiOGJjYzNhN2IxZWFhZmY1Mjc2NWVhODI5NzJhMTEiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:52:47 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+      "expires: Thu, 05 Nov 2026 13:52:47 GMT",
+      "x-request-id: 8676e6d0-d12b-4c2e-83f4-e37b180cbaf6",
+      "strict-transport-security: max-age=63072000;",
+      "connection: close"
+    ],
+    "errors": [
+      "'security'"
+    ],
+    "status": 200
+  },
+  {
+    "domain": "login.infomaniak.com",
+    "info": [
+      "date: Tue, 03 Nov 2026 13:52:49 GMT",
+      "content-type: text/html; charset=utf-8",
+      "transfer-encoding: chunked",
+      "cache-control: no-cache, private, max-age=172800",
+      "access-control-allow-origin: *",
+      "referrer-policy: same-origin",
+      "x-content-type-options: nosniff",
+      "x-frame-options: DENY",
+      "x-xss-protection: 1; mode=block",
+      "content-security-policy: default-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; script-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://www.gstatic.com https://www.google.com 'nonce-X/7ZZlnj97X9HwNUVE6rJ8AUgTlywUxp1aDV6Fki5UQ'; font-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://fonts.gstatic.com data:; style-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com 'unsafe-inline'; img-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://browser-update.org; object-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; connect-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com ws://*.infomaniak.com:* wss://*.infomaniak.com:* https://www.google.com; child-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; frame-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; media-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; worker-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; report-uri /api/csp-report",
+      "set-cookie: LOGIN-XSRF-TOKEN=eyJpdiI6IjA5Y3k0VFRRL1p4V0M5RDRzYnZ6cnc9PSIsInZhbHVlIjoiOUt6SVBxbWVTbkJ1NC9xak8ycU9ENmtIc2t2c3VQdUh3ZFFPVnhpbmlhZ1R5VHlJSTVtOUpNVlBiNDJKNzFBbUZwWjJiUEV5YUhaWHJ6N2xKcFdEZmc9PSIsIm1hYyI6IjM0ODJmYWQ5ODc2MjBkZTVjZTc0MTgyMjA2YjY0NDFmMWU3YTk1NDY5ZDEwYTYyMzIyMWNkYmRjYmI5NDE2OWYiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:52:49 GMT; Max-Age=7200; path=/; secure; samesite=lax",
+      "set-cookie: account_session=eyJpdiI6IlNHcE5kMHpsWit6RW5SbjRiUWtqK3c9PSIsInZhbHVlIjoidkxuMWJkNzJpdldUNkhsOTFJM2J0SG5jRmRFVzBhVEdkTWtGNUloSVl5eml4aVJ5SUcwUWVkSGQwR3VjYnNxaCtGb2ZLd0NqNkNwS250ZGcwREFyVEE9PSIsIm1hYyI6ImZmZWQ2NzA1ZGFiZDBmOTIwZTA2MjE2MGRjMTNmMzNiYzg0ZDhiY2RmOTE5NTRiMWJlNjQ0ZDQ1MTcwZTAyODEiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:52:49 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+      "expires: Thu, 05 Nov 2026 13:52:49 GMT",
+      "vary: Accept-Encoding",
+      "x-request-id: f803c419-3eea-40dd-9e0f-d1867ff88b51",
+      "strict-transport-security: max-age=63072000; includeSubDomains; preload;",
+      "connection: close"
+    ],
+    "errors": [
+      "'security'"
+    ],
+    "status": 200
+  },
+  {
+    "domain": "ksuite.infomaniak.com",
+    "info": [
+      "date: Tue, 03 Nov 2026 13:52:51 GMT",
+      "content-type: text/html; charset=utf-8",
+      "transfer-encoding: chunked",
+      "cache-control: no-cache, private, max-age=172800",
+      "access-control-allow-origin: *",
+      "referrer-policy: same-origin",
+      "x-content-type-options: nosniff",
+      "x-frame-options: DENY",
+      "x-xss-protection: 1; mode=block",
+      "content-security-policy: default-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; script-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://www.gstatic.com https://www.google.com 'nonce-U6EL7wUJIa0p7NGk67fFc9yuSqasTtpWCZNt10z3rKg'; font-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://fonts.gstatic.com data:; style-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com 'unsafe-inline'; img-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://browser-update.org; object-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; connect-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com ws://*.infomaniak.com:* wss://*.infomaniak.com:* https://www.google.com; child-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; frame-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; media-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; worker-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; report-uri /api/csp-report",
+      "set-cookie: LOGIN-XSRF-TOKEN=eyJpdiI6InI4N25xdEluWHAwS3c2MVlIdnphL1E9PSIsInZhbHVlIjoib3dGa3NTN3ovcHR4SG9RaldoS3ZOYXVxdHJGdEEzMVVjajBJTGJhSGFsZlloOXVmRUFOZ3lZZGFRcFZOVTVpQW5OUStxUmNFMEJRajVZUGcxM1pXc1E9PSIsIm1hYyI6IjE3OTlkN2I1N2RiMDFmOTYxOTIxNzU2OWFiMWJlNzIxNDIzNWUxZDExMjM3NzU3ZmFlYWY0Y2M2MjRiNDM5N2EiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:52:51 GMT; Max-Age=7200; path=/; secure; samesite=lax",
+      "set-cookie: account_session=eyJpdiI6IkxtSjgrc3k3djJoSHl1dkVyem1QdXc9PSIsInZhbHVlIjoiYmsxZk1QWWRkVkpvaWtsc0pLd283dmxXa0VzVXVHSDRRUmhwem9WdDBpVmFIbnQxNmtlWE5rWFVLbDh1UUM3aEw1VjVBY3BVbktWRVpBTi9lS0FLVlE9PSIsIm1hYyI6ImJhMTQ5MWMxMzI3NzI2OWVjM2IwN2RiY2M2OWIyZDhkYzZkY2U0MDk2ZjIwYjVlYTA4OTgwMWIxNmYzNGZhMzYiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:52:51 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+      "expires: Thu, 05 Nov 2026 13:52:51 GMT",
+      "vary: Accept-Encoding",
+      "x-request-id: 535dc1c7-0e3d-4dd0-b39e-b40163091b65",
+      "strict-transport-security: max-age=63072000; includeSubDomains; preload;",
+      "connection: close"
+    ],
+    "errors": [
+      "'security'"
+    ],
+    "status": 200
+  },
+  {
+    "domain": "kdrive.infomaniak.com",
+    "info": [
+      "date: Tue, 03 Nov 2026 13:52:54 GMT",
+      "content-type: text/html; charset=utf-8",
+      "transfer-encoding: chunked",
+      "cache-control: no-cache, private, max-age=172800",
+      "access-control-allow-origin: *",
+      "referrer-policy: same-origin",
+      "x-content-type-options: nosniff",
+      "x-frame-options: DENY",
+      "x-xss-protection: 1; mode=block",
+      "content-security-policy: default-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; script-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://www.gstatic.com https://www.google.com 'nonce-UIN2M7nPrlXI0FmUVCsqlnS7BxJTAa5dmvmOGa9RUYY'; font-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://fonts.gstatic.com data:; style-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com 'unsafe-inline'; img-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://browser-update.org; object-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; connect-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com ws://*.infomaniak.com:* wss://*.infomaniak.com:* https://www.google.com; child-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; frame-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; media-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; worker-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; report-uri /api/csp-report",
+      "set-cookie: LOGIN-XSRF-TOKEN=eyJpdiI6InJGVmsrTlNqM2ZrQVN0REJyVjBCcGc9PSIsInZhbHVlIjoiS0V2WW5ESjE3VzVsK2RRWHB6YlRUYUhKYmdIYjZPRDk3dFhNK2pKMGdqTTA2VkY3WTZjNlBVay9ETWtTaUhNTGQvS2wrUXIzTElqcC9CMXB3U3llZlE9PSIsIm1hYyI6ImI5ZmVlZGY4ODkzMjJmZmU4MTQ3MjMxOGY4M2FhNzZiYWYyZWVkY2EwNzU1NDM3ZThiNWZlNWMzY2M0M2RlMmIiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:52:54 GMT; Max-Age=7200; path=/; secure; samesite=lax",
+      "set-cookie: account_session=eyJpdiI6IkJJV0w0ZGxyMm1halVNU1drLzl3VEE9PSIsInZhbHVlIjoiSndKT1RHOHg2NUdyWmd6amduNDVxTXhQbmc3TUF6L2FuUzdoZzhxODdLUEdWdHlBV0o5cTBXeWJzcTM0KzB3MGVoWnlnUGhTdlI3RWN1OEtnYnJxanc9PSIsIm1hYyI6IjJlZmUxZDFiYTk3MzMzMGZiNTdhOWJkN2Q4NGVjN2VjMTg4ODU4Y2MyMTE2MTliNDI0ZjkzODM1NjEyODM3Y2UiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:52:54 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+      "expires: Thu, 05 Nov 2026 13:52:54 GMT",
+      "vary: Accept-Encoding",
+      "x-request-id: 50cc6d30-d3a5-445b-95f9-1388fc9494a7",
+      "strict-transport-security: max-age=63072000; includeSubDomains; preload;",
+      "connection: close"
+    ],
+    "errors": [
+      "'security'"
+    ],
+    "status": 200
+  },
+  {
+    "domain": "mail.infomaniak.com",
+    "info": [
+      "date: Tue, 03 Nov 2026 13:52:57 GMT",
+      "content-type: text/html; charset=utf-8",
+      "transfer-encoding: chunked",
+      "cache-control: no-cache, private, max-age=172800",
+      "access-control-allow-origin: *",
+      "referrer-policy: same-origin",
+      "x-content-type-options: nosniff",
+      "x-frame-options: DENY",
+      "x-xss-protection: 1; mode=block",
+      "content-security-policy: default-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; script-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://www.gstatic.com https://www.google.com 'nonce-7Ndw/48Rc5+qJ9ZbqNfwdHxp2rBvoxwDaoSHxLuMBfM'; font-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://fonts.gstatic.com data:; style-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com 'unsafe-inline'; img-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://browser-update.org; object-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; connect-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com ws://*.infomaniak.com:* wss://*.infomaniak.com:* https://www.google.com; child-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; frame-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; media-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; worker-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; report-uri /api/csp-report",
+      "set-cookie: LOGIN-XSRF-TOKEN=eyJpdiI6IlV6RHhvMzhzY001RUhiVEVWT0Z2N3c9PSIsInZhbHVlIjoiTkZOU09GSkduRGgydkhmU0JsMTBlSkVtcHByZDNoRlpFeHN3N0FrNDZMZXl6aGpKOEtkVTFXQXlhSlhIOURoSjEvblFCTUl5QnpkYVZIYjZMY01HSmc9PSIsIm1hYyI6ImFmMzA0ZDM5NDM2MTRmNWQzMTcyYzVmYjMzZjhjOTZjZGY3MzRiZjExMDMyODEzZjYyZTFiZjAyMTJlMjQ5ZjIiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:52:57 GMT; Max-Age=7200; path=/; secure; samesite=lax",
+      "set-cookie: account_session=eyJpdiI6ImtpMFNjTlR0MC9kcHdYOEF3SFh6MFE9PSIsInZhbHVlIjoiajhxSXJURkRYRTY1bW1IYXdYR0xmNllWdFZURkluSnZMcGNZNmd1NXVuNVVIaVV0bW9OazgxdmJWS1VDSnFadDJNVWVZY1lLQkZOSFFET0t0MDhvUWc9PSIsIm1hYyI6IjExNjI2YWRjZTIxZTIxNjZiYjU2MGJhZjYwNTAzMTE4MmFiMzQ1MzE2Nzc5NGY5YjAxZThmOWVmMzI3NzMzNzYiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:52:57 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+      "expires: Thu, 05 Nov 2026 13:52:57 GMT",
+      "vary: Accept-Encoding",
+      "x-request-id: 34e85f17-926e-4957-baef-1f8116152f47",
+      "strict-transport-security: max-age=63072000; includeSubDomains; preload;",
+      "connection: close"
+    ],
+    "errors": [
+      "'security'"
+    ],
+    "status": 200
+  },
+  {
+    "domain": "swisstransfer.infomaniak.com",
+    "info": [
+      "date: Tue, 03 Nov 2026 13:53:00 GMT",
+      "content-type: text/html; charset=utf-8",
+      "transfer-encoding: chunked",
+      "cache-control: no-cache, private, max-age=172800",
+      "access-control-allow-origin: *",
+      "referrer-policy: same-origin",
+      "x-content-type-options: nosniff",
+      "x-frame-options: DENY",
+      "x-xss-protection: 1; mode=block",
+      "content-security-policy: default-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; script-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://www.gstatic.com https://www.google.com 'nonce-Cyl5OLGE2yHd/kPre3PTOwQB1Tdbr9kGB/m5jcLVU2I'; font-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://fonts.gstatic.com data:; style-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com 'unsafe-inline'; img-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://browser-update.org; object-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; connect-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com ws://*.infomaniak.com:* wss://*.infomaniak.com:* https://www.google.com; child-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; frame-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com https://*.google.com; media-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; worker-src http://infomaniak.com http://*.infomaniak.com https://infomaniak.com https://*.infomaniak.com; report-uri /api/csp-report",
+      "set-cookie: LOGIN-XSRF-TOKEN=eyJpdiI6Ik9JVXNHSjBXR2JCa0dlT2RMOUVLZ3c9PSIsInZhbHVlIjoiQVdGSkZWYTlPZkttU1RsdjF6aWxTUk05Um1QTmZFNVNMVlVPMllaT05pUXNXdktMUzBqTFU4QnluSlp1N2lCVXFJb3Z4RUYxbWZQdmVrWTFXTk04UlE9PSIsIm1hYyI6IjkwYzE2MDAwMjk0OGY0MmNlZmVmYjgyOWFhZThkNDdkMDkyY2IwYjZlZGY4ZjExYjUwZjg3MzE0ZjE4MWQzMzQiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:53:00 GMT; Max-Age=7200; path=/; secure; samesite=lax",
+      "set-cookie: account_session=eyJpdiI6ImEwbVJzTDUrTFdmU0toTnFDU21LQUE9PSIsInZhbHVlIjoiWEFsanFVL2JTMXlVb2VITGdvTEM4ekFyT1gzckVmYWN5ZzJ1TDQzejBDMkE0M3ZwQTR2akJPMGVsdktELzhyS3RxOElUam1EV1FtQjdhMFRnRWlGN3c9PSIsIm1hYyI6Ijc0ZjUzMmVlMmY0NjgwNjMwM2IxMGU4NDk2MzIyYjg5ODZlNjAwNDA5M2EzODBhZWVjNjhlNzYzNTViZjZkYzkiLCJ0YWciOiIifQ%3D%3D; expires=Tue, 03 Nov 2026 15:53:00 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+      "expires: Thu, 05 Nov 2026 13:53:00 GMT",
+      "vary: Accept-Encoding",
+      "x-request-id: 6ccac113-a3cd-4824-8f7a-81463c2f56b6",
+      "strict-transport-security: max-age=63072000; includeSubDomains; preload;",
+      "connection: close"
+    ],
+    "errors": [
+      "'security'"
+    ],
+    "status": 200
+  }
+]

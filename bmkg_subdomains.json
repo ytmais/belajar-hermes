@@ -1,0 +1,102 @@
+{
+  "dns": {
+    "NS": [
+      "ns3.bmkg.go.id.",
+      "ns2.bmkg.go.id.",
+      "ns1.bmkg.go.id."
+    ],
+    "MX": [
+      "10 alt3.aspmx.l.google.com.",
+      "5 alt1.aspmx.l.google.com.",
+      "10 alt4.aspmx.l.google.com.",
+      "5 alt2.aspmx.l.google.com.",
+      "1 aspmx.l.google.com."
+    ],
+    "TXT": [
+      "\"google-site-verification=fbFsm8Ejm_Few17SnSoP01np0wNVDd_G3WUH5nFnkro\"",
+      "\"google-site-verification=Gl1L5eyCjO6X0s9lSNHuqKshVpUj-ZfH5HoYeven2t4\"",
+      "\"google-site-verification=m_YNX1fbIOBuaOXUfAPOqN5AqA98oWfyWQcj7NbfoPw\"",
+      "\"brevo-code:2e1d4af2b2fb8e695ac50dc673608bbe\"",
+      "\"google-site-verification=dCsWTpuQ9a9Tq3kTrnkc9RqczbbvRo0sP3jnWUS1J8Y\"",
+      "\"ciscocidomainverification=533efcb00b1f433ffbf4304773c5aceb76a883960fe1850a7ba81215fa6df5bd\"",
+      "\"google-site-verification=6IifESqpfPmwSULe6blfwXCKNgFN1V36r-41_Bylr_0\"",
+      "\"google-site-verification=47wOnqv-WOK-SKs5hRukM7ehxBkxYpkCE9X48pQbjYY\"",
+      "\"google-site-verification=cWvAh3KJCzkc57dDU64O-Q0mfOWGeOm0bF91YNYvYBY\"",
+      "\"v=spf1 include:_spf.google.com ~all\"",
+      "\"google-site-verification=rKm8HhjoFoR_itX81_fjN_1VudAhN7lwC1vzCpHR6KA\"",
+      "\"google-site-verification=DTjuZnUKc4xf8CRVzgwqg0_XkrjJwoDvR0RoC1LMZVc\""
+    ],
+    "SOA": [
+      "ns1.bmkg.go.id. dns.cloudflare.com. 2419096406 10000 2400 604800 1800"
+    ],
+    "A": [
+      "172.66.159.70",
+      "104.20.20.136"
+    ],
+    "AAAA": [
+      "2606:4700:10::ac42:9f46",
+      "2606:4700:10::6814:1488"
+    ]
+  },
+  "crt_sh": [
+    "*.apps.bmkg.go.id",
+    "*.bmkg.go.id",
+    "api-sdm.bmkg.go.id",
+    "apps.bmkg.go.id",
+    "auth.bmkg.go.id",
+    "bbmkg2.bmkg.go.id",
+    "bmkgsatu.bmkg.go.id",
+    "cews.bmkg.go.id",
+    "clarity.bmkg.go.id",
+    "content.bmkg.go.id",
+    "cuaca.bmkg.go.id",
+    "data.bmkg.go.id",
+    "eposhujan.bmkg.go.id",
+    "eskm.bmkg.go.id",
+    "geof.bmkg.go.id",
+    "gerhana.bmkg.go.id",
+    "godinas.bmkg.go.id",
+    "hilal.bmkg.go.id",
+    "inaeews.bmkg.go.id",
+    "inatnt.bmkg.go.id",
+    "inspektorat.bmkg.go.id",
+    "jam.bmkg.go.id",
+    "ld.bmkg.go.id",
+    "lencana.bmkg.go.id",
+    "maritim.bmkg.go.id",
+    "mhews.bmkg.go.id",
+    "mms.bmkg.go.id",
+    "netbird.bmkg.go.id",
+    "nowcasting.bmkg.go.id",
+    "ntp.bmkg.go.id",
+    "perpustakaan.bmkg.go.id",
+    "peta-maritim.bmkg.go.id",
+    "ptsp.bmkg.go.id",
+    "publik.bmkg.go.id",
+    "repogempa.bmkg.go.id",
+    "satellite.bmkg.go.id",
+    "signature.bmkg.go.id",
+    "sikompas.bmkg.go.id",
+    "simora.bmkg.go.id",
+    "spreso.bmkg.go.id",
+    "stageof-jayapura.bmkg.go.id",
+    "staklim-jateng.bmkg.go.id",
+    "staklim-jatim.bmkg.go.id",
+    "staklim-maluku.bmkg.go.id",
+    "stamet-banjarmasin.bmkg.go.id",
+    "stamet-kolaka.bmkg.go.id",
+    "stamet-ternate.bmkg.go.id",
+    "stamet-ternate.bmkg.go.id.stamet-ternate.id",
+    "stats.bmkg.go.id",
+    "time.bmkg.go.id",
+    "tropicalcyclone.bmkg.go.id",
+    "warning.bmkg.go.id",
+    "weather.bmkg.go.id",
+    "widis.bmkg.go.id",
+    "wis2node.bmkg.go.id",
+    "www.bmkg.go.id",
+    "www.stamet-ternate.bmkg.go.id.stamet-ternate.id"
+  ],
+  "brute": [],
+  "all": []
+}

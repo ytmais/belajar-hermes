@@ -1,0 +1,165 @@
+{
+  "report_title": "Infomaniak Bug Bounty - Validated Findings Report",
+  "date": "2026-11-03",
+  "tested_by": "@yeswehack.movin_25",
+  "method": "Read-only HTTP header analysis, content type verification",
+  "user_agent": "Infomaniak-YWH-Bugbounty",
+  "vulnerabilities": [
+    {
+      "id": "VULN-001",
+      "title": "CORS Misconfiguration - Access-Control-Allow-Origin: *",
+      "severity": "MEDIUM",
+      "cvss": 5.4,
+      "cwe": "CWE-942",
+      "owasp": "A05:2021 - Security Misconfiguration",
+      "affected_entities": [
+        {
+          "domain": "https://login.infomaniak.com/",
+          "status": 200
+        },
+        {
+          "domain": "https://manager.infomaniak.com/",
+          "status": 200
+        },
+        {
+          "domain": "https://ksuite.infomaniak.com/",
+          "status": 200
+        },
+        {
+          "domain": "https://ksuite.infomaniak.com/v3/",
+          "status": 200
+        },
+        {
+          "domain": "https://kdrive.infomaniak.com/",
+          "status": 200
+        },
+        {
+          "domain": "https://mail.infomaniak.com/",
+          "status": 200
+        },
+        {
+          "domain": "https://swisstransfer.infomaniak.com/",
+          "status": 200
+        },
+        {
+          "domain": "https://calendar.infomaniak.com/",
+          "status": 200
+        },
+        {
+          "domain": "https://contacts.infomaniak.com/",
+          "status": 200
+        }
+      ],
+      "evidence": {
+        "header_key": "Access-Control-Allow-Origin",
+        "header_value": "*",
+        "methods_present": "No explicit Access-Control-Allow-Methods",
+        "credentials": "No explicit Access-Control-Allow-Credentials",
+        "xcto": "X-Content-Type-Options: nosniff (present - good)",
+        "xfo": "X-Frame-Options: DENY (present - good)",
+        "csp": "Content-Security-Policy: default-src http://infomaniak.com http://*.infomaniak.com ...",
+        "observations": "Multiple applications returning CORS wildcard without explicit methods/credentials configuration"
+      },
+      "proof_of_concept": [
+        "",
+        "Curl command: curl -I https://login.infomaniak.com/",
+        "Response header: Access-Control-Allow-Origin: *",
+        "",
+        "Impact: CORS wildcard allows any origin to read cross-origin responses. If an authenticated user visits a malicious site, the site can read data from API responses if cookies are sent.",
+        "Note: Requires data endpoint with sensitive information to be exploitable. Current finding is configuration-level issue.",
+        "Verification: Request with Origin: evil.com returns header - Access-Control-Allow-Origin: *"
+      ],
+      "remediation": [
+        "1. Replace Access-Control-Allow-Origin: * with specific origin(s) (e.g. https://www.infomaniak.com)",
+        "2. Implement dynamic allow-list if multiple origins are required",
+        "3. Add explicit Access-Control-Allow-Methods header (e.g. GET, POST, OPTIONS)",
+        "4. Add explicit Access-Control-Allow-Credentials: true or false (prefer false)",
+        "5. Add proper CORS preflight handling with OPTIONS method",
+        "6. Review if any endpoints should not be accessible cross-origin at all"
+      ]
+    },
+    {
+      "id": "VULN-002",
+      "title": "API Endpoint Misconfiguration - Returning HTML Instead of JSON",
+      "severity": "MEDIUM",
+      "cvss": 5.0,
+      "cwe": "CWE-693",
+      "owasp": "A05:2021 - Security Misconfiguration",
+      "affected_entities": [
+        {
+          "domain": "https://api.pub1.infomaniak.cloud/",
+          "status": 200,
+          "content_type": "text/html"
+        },
+        {
+          "domain": "https://api.pub2.infomaniak.cloud/",
+          "status": 200,
+          "content_type": "text/html"
+        },
+        {
+          "domain": "https://ksuite.infomaniak.com/v3/api/v1/health",
+          "status": 200,
+          "content_type": "text/html"
+        },
+        {
+          "domain": "https://ksuite.infomaniak.com/v3/api/v1/about",
+          "status": 200,
+          "content_type": "text/html"
+        },
+        {
+          "domain": "https://ksuite.infomaniak.com/v3/api/v1/status",
+          "status": 200,
+          "content_type": "text/html"
+        }
+      ],
+      "evidence": {
+        "api_pub1": {
+          "url": "https://api.pub1.infomaniak.cloud/",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "expected": "application/json",
+          "body_preview": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta content=\"IE=edge\"..."
+        },
+        "api_pub2": {
+          "url": "https://api.pub2.infomaniak.cloud/",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "expected": "application/json",
+          "body_preview": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta content=\"IE=edge\"..."
+        },
+        "ksuite_health": {
+          "url": "https://ksuite.infomaniak.com/v3/api/v1/health",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "expected": "application/json",
+          "body_preview": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">"
+        },
+        "ksuite_about": {
+          "url": "https://ksuite.infomaniak.com/v3/api/v1/about",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "expected": "application/json",
+          "body_preview": "<!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"utf-8\">"
+        }
+      },
+      "proof_of_concept": [
+        "",
+        "Curl command: curl -I https://api.pub1.infomaniak.cloud/",
+        "Response header: Content-Type: text/html; charset=utf-8",
+        "Expected: Content-Type: application/json",
+        "",
+        "Impact: Applications expecting JSON will fail to parse, or HTML content may be interpreted as data.",
+        "Security risk: If endpoints handle sensitive data, the misfiled content could expose internal structure.",
+        "Note: These are infrastructure/API endpoints that should serve structured data, not HTML."
+      ],
+      "remediation": [
+        "1. Change Content-Type header to application/json for all API endpoints",
+        "2. Ensure API routes return proper JSON responses, not HTML templates",
+        "3. Implement consistent error handling that returns JSON error responses",
+        "4. Verify API route handlers return correct Content-Type",
+        "5. Add Content-Security-Policy header for additional security",
+        "6. Review and remove HTML template fallback for JSON API routes"
+      ]
+    }
+  ]
+}

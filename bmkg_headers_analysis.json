@@ -1,0 +1,1071 @@
+[
+  {
+    "host": "content.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "auth.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "data.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "Cache-Control": "private, max-age=60"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "bmkgsatu.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "api-sdm.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XFO": "SAMEORIGIN",
+      "XCTO": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "geolocation=(), microphone=(), camera=()"
+    },
+    "security_scores": 5,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "cuaca.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff",
+      "Cache-Control": "max-age=60"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "gerhana.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff",
+      "Cache-Control": "public, max-age=120"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "hilal.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XFO": "SAMEORIGIN",
+      "XCTO": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "geolocation=(self), microphone=(), camera=()",
+      "Cache-Control": "public, max-age=120"
+    },
+    "security_scores": 6,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "inspektorat.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "Vercel",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=63072000",
+      "Cache-Control": "public, max-age=0, must-revalidate"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "geof.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "inaeews.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff",
+      "Cache-Control": "public, max-age=0"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "clarity.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "eposhujan.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XFO": "DENY",
+      "XCTO": "nosniff",
+      "Referrer-Policy": "no-referrer-when-downgrade",
+      "Permissions-Policy": "microphone=()",
+      "Cache-Control": "no-cache, private"
+    },
+    "security_scores": 6,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "ld.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "maritim.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "mms.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains"
+    },
+    "security_scores": 1,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "mhews.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "CSP": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; ",
+      "XFO": "DENY",
+      "XCTO": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "geolocation=(self), microphone=(), camera=()",
+      "Cache-Control": "no-cache, private"
+    },
+    "security_scores": 7,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "eskm.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XFO": "DENY",
+      "XCTO": "nosniff",
+      "Referrer-Policy": "same-origin"
+    },
+    "security_scores": 4,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "lencana.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "Permissions-Policy"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "CSP": "default-src 'none'; frame-ancestors 'self'; style-src 'self' https://fonts.googl",
+      "XFO": "DENY",
+      "XCTO": "nosniff",
+      "Referrer-Policy": "same-origin",
+      "Cache-Control": "no-store, no-cache, must-revalidate",
+      "X-XSS-Protection": "1; mode=block"
+    },
+    "security_scores": 7,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "jam.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "Microsoft-IIS/10.0",
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "Cache-Control": "private"
+    },
+    "security_scores": 1,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "netbird.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "n/a",
+    "missing_headers": [
+      "CSP",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=3600; includeSubDomains; preload",
+      "XFO": "DENY",
+      "XCTO": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    },
+    "security_scores": 5,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "peta-maritim.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "signature.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "satellite.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "publik.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "nowcasting.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains"
+    },
+    "security_scores": 1,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "repogempa.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff",
+      "Cache-Control": "no-cache, private"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "ntp.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "Microsoft-IIS/10.0",
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "Cache-Control": "private"
+    },
+    "security_scores": 1,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "staklim-jateng.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "CSP": "frame-ancestors 'none';",
+      "XFO": "DENY",
+      "XCTO": "nosniff",
+      "X-XSS-Protection": "1; mode=block"
+    },
+    "security_scores": 5,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "perpustakaan.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "Cache-Control": "no-cache, private"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "simora.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "cews.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff",
+      "Cache-Control": "no-store, no-cache, must-revalidate"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "staklim-maluku.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "CSP": "frame-ancestors 'self'",
+      "XFO": "SAMEORIGIN",
+      "XCTO": "nosniff",
+      "Cache-Control": "no-cache, private"
+    },
+    "security_scores": 5,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "spreso.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "stamet-ternate.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "stamet-kolaka.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff",
+      "Cache-Control": "no-store, no-cache, must-revalidate"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "weather.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff",
+      "Cache-Control": "max-age=60"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "tropicalcyclone.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "stageof-jayapura.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XFO": "DENY",
+      "XCTO": "nosniff",
+      "Referrer-Policy": "same-origin"
+    },
+    "security_scores": 4,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "widis.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "time.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff",
+      "Cache-Control": "private"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "warning.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "Google Frontend",
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "www.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "Cache-Control": "max-age=60"
+    },
+    "security_scores": 2,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "stamet-ternate.bmkg.go.id.stamet-ternate.id",
+    "status": 200,
+    "https": true,
+    "server": "LiteSpeed",
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "www.stamet-ternate.bmkg.go.id.stamet-ternate.id",
+    "status": 200,
+    "https": true,
+    "server": "LiteSpeed",
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "wis2node.bmkg.go.id",
+    "status": 403,
+    "https": false,
+    "server": null,
+    "missing_headers": [
+      "HSTS",
+      "CSP",
+      "XFO",
+      "XCTO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {},
+    "security_scores": 0,
+    "total_scored": 8,
+    "notes": [
+      "HTTP redirected or not HTTPS, missing HSTS",
+      "403 Forbidden \u2014 likely WAF/access blocked or invalid path"
+    ]
+  },
+  {
+    "host": "stats.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "n/a",
+    "missing_headers": [
+      "XFO",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; preload",
+      "CSP": "default-src 'self' https: data: blob: 'unsafe-inline' 'unsafe-eval'; upgrade-ins",
+      "XCTO": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Permissions-Policy": "geolocation=(),midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),full",
+      "Cache-Control": "public, max-age=60"
+    },
+    "security_scores": 6,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "ptsp.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "CSP": "frame-ancestors 'self'; script-src 'self' 'nonce-K7YBdVy9drA1xOjuPhjqUEqY3aCwZPw",
+      "XFO": "SAMEORIGIN",
+      "XCTO": "nosniff",
+      "Cache-Control": "no-store, no-cache, must-revalidate"
+    },
+    "security_scores": 5,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "stamet-banjarmasin.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "XFO",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XCTO": "nosniff",
+      "Cache-Control": "no-cache, private"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  },
+  {
+    "host": "bbmkg2.bmkg.go.id",
+    "status": 200,
+    "https": true,
+    "server": "cloudflare",
+    "missing_headers": [
+      "CSP",
+      "Referrer-Policy",
+      "Permissions-Policy",
+      "Cache-Control",
+      "X-XSS-Protection"
+    ],
+    "present_headers": {
+      "HSTS": "max-age=31536000; includeSubDomains",
+      "XFO": "SAMEORIGIN",
+      "XCTO": "nosniff"
+    },
+    "security_scores": 3,
+    "total_scored": 8,
+    "notes": []
+  }
+]
